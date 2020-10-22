@@ -1,0 +1,53 @@
+/* Basic Styling Form */
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.contact_form input[type=text]{
+    
+}
+
+
+
+/* Container Size Control */
+
+.container{
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-radius: 15px;
+    width: 15%;
+    background-color: #ddd;
+}
+
+/* Text Position */
+
+.container{
+    text-align: center;
+}
+
+.container input[type=text]{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 2%;
+    border: 2px solid #777;
+    background-color: #333;
+}
+
+.container input[type=submit]:hover{
+    animation: button_move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button_move{
+    100%{
+        transform: translateY(1000%);
+    }
+}
