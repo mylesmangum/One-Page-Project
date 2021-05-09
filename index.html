@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/one_page_css.css">
+    <script src="./js/main.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -33,9 +34,31 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div./img/RZqXkZn.jpg>
     </section>
+    <div id="show" onclick="showModal()">Show</div>
+    <div id="myModal" class="modal">
+        <div id="next" onclick="nextSlide()">:)</div>
+        <div class="modal-content">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div id="displayWindow">
+                
+                
+                <div id="numbertext">1 / 4</div>
+                <img id="theImage" src="./img/RZqXkZn.jpg" alt="">
+
+                
+            </div>
     
-</div>
+            <div class="mySlides">
+                <img class="flexItems" src="./img/RZqXkZn.jpg" onclick="imageClick(0)" style="width:100%">
+                <img class="flexItems" src="./img/OEbAbku.jpg" onclick="imageClick(1)" style="width:100%">
+                <img class="flexItems" src="./img/RZqXkZn.jpg" onclick="imageClick(2)" style="width:100%">
+                <img class="flexItems" src="./img/OEbAbku.jpg" onclick="imageClick(3)" style="width:100%">
+            </div>
+        </div>
+        
+    </div>
+    <div id="back" onclick="prevSlide()">:(</div>
 </body>
 </html>

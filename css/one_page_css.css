@@ -3,6 +3,7 @@
 html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
+    color: white;
 }
 
 
@@ -37,14 +38,45 @@ html{
     background-color: #333;
 }
 
-.container input[type=submit]:hover{
-    animation: button_move;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
+
 
 @keyframes button_move{
     100%{
         transform: translateY(1000%);
     }
 }
+
+#myModal {
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+
+#show:hover {
+    cursor: pointer;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+
+
+.mySlides {
+    display: flex;
+    width: 20%;
+    background-color: #333; 
+    align-items: baseline;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.mySlides:hover{
+    cursor: pointer;
+}
+
+
+
+
+
