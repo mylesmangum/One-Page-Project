@@ -14,10 +14,10 @@ function closeModal() {
 }
 
 let currSlide = 0
-let images = ["./img/RZqXkZn.jpg",
-                "./img/OEbAbku.jpg",
-                "./img/RZqXkZn.jpg",
-                "./img/OEbAbku.jpg"
+let images = ["./img/2-nature.jpg",
+                "./img/istockphoto-1093110112-612x612.jpg",
+                "./img/tree-276014__340.jpg",
+                "./img/tree-736885__480.jpg"
             ]
 
 function nextSlide() {
