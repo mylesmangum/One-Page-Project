@@ -38,9 +38,15 @@
     </section>
     <div id="show" onclick="showModal()">Show</div>
     <div id="myModal" class="modal">
-        <div id="next" onclick="nextSlide()">:)</div>
+        
         <div class="modal-content">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="row-container">
+                <div id="back" onclick="prevSlide()">Prev</div>
+                
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div id="next" onclick="nextSlide()">Next</div>
+            </div>
+            
             <div id="displayWindow">
                 
                 
@@ -59,6 +65,6 @@
         </div>
         
     </div>
-    <div id="back" onclick="prevSlide()">:(</div>
+    
 </body>
 </html>
